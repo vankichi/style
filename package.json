@@ -1,0 +1,34 @@
+{
+  "name": "style",
+  "version": "1.0.0",
+  "description": "style",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev:watch": "webpack-dev-server --mode=development --config webpack.config.js",
+    "dev:build": "webpack --mode=development --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vankichi/style.git"
+  },
+  "keywords": [
+    "tailwindscss"
+  ],
+  "author": "vankichi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vankichi/style/issues"
+  },
+  "homepage": "https://github.com/vankichi/style#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "postcss": "^7.0.27",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.4",
+    "tailwindcss": "^1.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
