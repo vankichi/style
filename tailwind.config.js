@@ -1,6 +1,6 @@
 module.exports = {
   theme : {
-    //    extend : {},
+    extend : {},
     screens : {
       // @media (min-width: 640px)
       'sm' : '640px',
@@ -10,9 +10,9 @@ module.exports = {
       'lg' : '1024px',
       // @media (min-width: 640px)
       'sm' : '1280px',
-    },
-    colors : {transparent : 'transparent', black : "#333333", white : "#ffffff"}
+    }
+    // colors : {}
   },
-  //  variants : {},
-  //  plugins : [],
+  variants : {},
+  plugins : [],
 }
