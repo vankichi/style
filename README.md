@@ -3,13 +3,22 @@ style
 
 ## Usage
 
-```bash
-npm install
-```
+1. install
 
-## create tailwind.config.js
+    ```bash
+    npm install
+    ```
 
-```bash
-npx tailwindcss init
-```
+1. complie
 
+    ```bash
+    // complie and output to dist/bundle.js
+    npx webpack
+    ```
+
+1. run&watch
+
+    - update automatelly
+    ```bash
+    npm run dev:watch
+    ```
