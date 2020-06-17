@@ -1,0 +1,23 @@
+name: 'Minify Assets Files(css/js)'
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'dist/**'
+      - 'src/**'
+  pull_request:
+    paths:
+      - 'dist/**'
+      - 'src/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto Minify
+        uses: actions/checkout@v2
+        with:
+          commit_message: ":arrow_up: Auto Minified JS and CSS files"
+          branch: ${{ github.ref }}
+
