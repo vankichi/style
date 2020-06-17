@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Auto Minify
-        uses: uses: nizarmah/auto-minify@master
+        uses: nizarmah/auto-minify@master
       - name: Commit Minified files
         uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
