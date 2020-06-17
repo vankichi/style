@@ -4,3 +4,6 @@
 
 @tailwind utilities;
 
+.top {
+    background: "#ffffff"
+}
